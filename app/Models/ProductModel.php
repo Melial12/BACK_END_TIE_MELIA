@@ -19,5 +19,5 @@ class ProductModel extends Model {
     public function insertProductORM($data){
         return $this->insert($data);
     }
-    
+ //   
 }
