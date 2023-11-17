@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Data Products</h1>
+    <a href="<?= base_url('insertproduct') ?>">Tambah Data</a>
     <table border="1" cellpadding ="10">
         <thead>
             <tr>
@@ -17,7 +18,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($data as $p): ?>
+            <?php foreach ($product as $p): ?>
             <tr>
                 <td><?=$p->id?></td>
                 <td><?=$p->nama_product?></td>
